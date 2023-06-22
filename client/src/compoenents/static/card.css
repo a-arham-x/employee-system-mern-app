@@ -1,0 +1,30 @@
+.card{
+    background-color: navy;
+    padding: 20px;
+    width: 400px;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_name{
+    font-size: 25px;
+    color: white;
+    font-family: "Roborto", sans-serif;
+}
+
+.card_text{
+    font-size: 16px;
+    color: white;
+    font-family: "Roborto", sans-serif;
+}
+
+.x{
+    height: 30px;
+    width: 30px;
+    background-color: navy;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}

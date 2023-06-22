@@ -1,0 +1,14 @@
+.bottom_div{
+    padding: 10px;
+    background-color: #007FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roborto', sans-serif;
+}

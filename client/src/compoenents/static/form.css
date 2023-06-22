@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Handlee&family=Lobster&family=Roboto:wght@300;400&family=Staatliches&display=swap');
+
+.form_div{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    border: 1px solid #007FFF;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.upper_div{
+    margin: 0;
+    padding: 10px;
+    background-color: #007FFF;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Roborto', sans-serif;
+    color: white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.labels_div{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs_div{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 20px;
+    font-family: 'Roborto', sans-serif;
+    margin-top: 15px;
+}
+
+input{
+    width: 200px;
+    margin-top: 15px;
+    border: 1px solid #007FFF;
+}
+
+.buttons_div{
+    margin-left: 250px;
+    margin-bottom: 5px;
+}
+
+.clear_all{
+    border: none;
+    background: white;
+    color: gray;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.add{
+    margin-left: 5px;
+    height: 40px;
+    font-family: 'Roborto', sans-serif;
+    background-color: #007FFF;
+    width: 100px;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+span{
+    color: red;
+    font-size: 15px;
+}
+

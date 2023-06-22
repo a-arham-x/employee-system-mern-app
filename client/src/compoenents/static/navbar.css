@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan&family=Handlee&family=Lobster&family=Roboto:wght@300;400&family=Staatliches&display=swap');
+
+*{
+    margin: 0;
+}
+
+nav{
+    background-color:#007FFF;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    padding: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
