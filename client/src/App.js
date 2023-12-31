@@ -5,7 +5,7 @@ import "./index.css"
 import {useState, useEffect} from "react"
 
 function App() {
-  const host = "http://localhost:5000"
+  const host = process.env.REACT_APP_HOST;
     const [employees, setEmployees] = useState();
     const getEmployees = async ()=>{
         const url = `${host}/employees/`;
@@ -15,7 +15,6 @@ function App() {
     }
     useEffect(() => {
         getEmployees();
-        console.log("Hello World")
     }, []);
 
   return (
