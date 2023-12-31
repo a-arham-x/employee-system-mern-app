@@ -13,7 +13,7 @@ connectToMongo()
 app.use("/employees", require("./routes/employees"))
 
 app.get("/", (req, res)=>{
-    res.send("Hello World");
+    res.send("Hello to this application");
 })
 
 app.listen(port);
