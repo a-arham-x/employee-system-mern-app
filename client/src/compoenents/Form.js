@@ -19,7 +19,7 @@ function Form(props) {
             phone: ""
         })
     }
-    const host = "http://localhost:5000"
+    const host = process.env.REACT_APP_HOST;
     const add_employee = async (e)=>{
         const url = `${host}/employees/add`;
         const response = await fetch(url, {

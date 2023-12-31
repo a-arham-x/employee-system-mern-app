@@ -2,7 +2,7 @@ import React from 'react'
 import "./static/card.css"
 
 function Card(props) {
-    const host = "http://localhost:5000"
+    const host = process.env.REACT_APP_HOST;
     const deleteEmployee = async (e) => {
         const url = `${host}/employees/delete`;
         const response = await fetch(url, {
